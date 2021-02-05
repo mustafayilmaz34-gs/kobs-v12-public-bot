@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const db = require('quick.db');
+const db = require('wio.db');
 
 exports.run = async(client, message, args) => {
    if(!message.member.roles.cache.has('YetkiliROlİd')) return message.channel.send('Bu komutu kullanabilmek için gerekli yetkiye sahip değilsin : `rôl adı`')
